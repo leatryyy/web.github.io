@@ -1,0 +1,221 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="w3.css" />
+
+	<div class="w3-container" style="background-image: url(banneritem.jpg); background-size: cover;">
+						<br>
+							<br>
+								<br>
+									<br>
+										<br>
+											<br>
+												<br>
+													<br>
+												<br>
+											<br>
+										<br>
+									<br>
+								<br>
+						</br>
+	</div>
+</head>
+
+<body style="background-color: black;">
+
+	
+	<div class="w3-bar w3-padding-16 w3-large w3-card w3-border-bottom w3-border-red"
+        style="letter-spacing:4px; background-color: black;">
+        
+		
+		<div class="w3-left w3-margin-left">
+            <button class="w3-bar-item w3-button w3-blue w3-text-white nav w3-hover-blue w3-round-large"
+                onclick="changeContent('home')" >Home</button>
+			<button class="w3-bar-item w3-button w3-text-white nav w3-hover-blue w3-round-large"
+                onclick="changeContent('profile')" id="nav-profile">Profile</button>
+		</div>
+
+		<div class="w3-right w3-margin-right">
+			<div class="w3-dropdown-hover">
+				<button class="w3-button w3-text-white nav w3-hover-blue w3-round-large">BMW</button>
+				<td><a style="cursor: pointer;"><img src="BMW.png" height="50"
+                                alt="" class="w3-bar-item w3-left"></a></td>
+					<div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('m5')" id="nav-m5">BMW M5</button>
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('i8')" id="nav-i8">BMW i8</button>
+                </div>
+            </div>
+			<div class="w3-dropdown-hover">
+				<button class="w3-button w3-text-white nav w3-hover-blue w3-round-large">Honda</button>
+				<td><a onclick="changeContent('home')" style="cursor: pointer;"><img src="honda.png" height="50"
+                                alt="" class="w3-bar-item w3-left"></a></td>
+				<div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('civictyper')" id="nav-civictyper">Civic Type R</button>
+                </div>
+            </div>		
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-text-white nav w3-hover-blue w3-round-large">Porsche</button>
+				<td><a onclick="changeContent('home')" style="cursor: pointer;"><img src="porsche-transformed.png" height="50"
+                                alt="" class="w3-bar-item w3-left"></a></td>
+                <div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('718')" id="nav-">718 Cayman GT4 RS</button>
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('918')" id="nav-918">Spyder 918</button>
+                </div>
+            </div>
+			<div class="w3-dropdown-hover">
+                <button class="w3-button w3-text-white nav w3-hover-blue w3-round-large">Ferrari</button>
+				<td><a onclick="changeContent('home')" style="cursor: pointer;"><img src="ferrari-transformed.png" height="50"
+                                alt="" class="w3-bar-item w3-left"></a></td>
+                <div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('sf90')" id="nav-">SF90 XX</button>
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('f8')" id="nav-">F8 Spider</button>
+                </div>
+            </div>
+			<div class="w3-dropdown-hover">
+                <button class="w3-button w3-text-white nav w3-hover-blue w3-round-large">Corvette</button>
+				<td><a onclick="changeContent('home')" style="cursor: pointer;"><img src="corvette-transformed.png" height="50"
+                                alt="" class="w3-bar-item w3-left"></a></td>
+                <div class="w3-dropdown-content w3-bar-block w3-round-large w3-right w3-card-2">
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('z06')" id="nav-">Z06</button>
+                    <button class="w3-button w3-large w3-bar-item w3-round-large transition nav w3-hover-blue"
+                        onclick="changeContent('c6')" id="nav-c6">C6</button>
+                </div>
+            </div>
+		</div>
+    </div> 
+	
+	<div class="content" id="home">
+		<br>
+		<br>
+		<br>
+            <h1 class="w3-text-white w3-center"><strong>Welcome To This Site!</strong></h1>
+	</div>
+	
+	<div class="content" id="profile" style="display: none;">
+            <center>
+            <div class="w3-card-4 w3-round-xlarge w3-animate-zoom" style="width: 60%; height: 650px; background-color: white; margin-top: 3%;">
+                <img src="black.jpg" alt="foto profil" style="width: 100%; height: 300px; object-fit: cover; border-radius: 16px 16px 0 0;">
+				
+				<div class="w3-display-container w3-container">
+                    <div class="w3-display-middle" style="width: 300px; margin-top: 10%;">
+                        <img src="self.jpg" alt="foto profil" width="70%" class="w3-circle" style="border: 5px solid white; backround-color: black; margin-top: 2%;">
+                        <p style="font-size: x-medium; margin-bottom: 0;"><strong>Leatry Zhalsabila Putri</strong></p>
+                        <p style="margin: 0; color: rgb(120, 120, 120);">NIM : 10123108</p>
+                        <p style="margin: 0 0 5px 0; color: rgb(120, 120, 120);">IF-3</p>
+						<div class="wrapper">
+							<div class="icon instagram">
+								<div class="tooltip">Instagram : ltryzhalsabila</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+			</center>
+            <br>
+            <br>
+	</div>
+
+	<div class="content" id="m5" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-top"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="m5 black.jpg" alt=""></center>
+			</div>
+	</div>
+	
+	<div class="content" id="i8" style="display: none;">
+            <br>
+            <div class="w3-container w3-card w3-padding w3-animate-left"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="i8.jpg" alt=""></center>
+			</div>
+	</div>
+
+	<div class="content" id="civictyper" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-right"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="CivicR.jpg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="718" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-fading"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="718.jpg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="918" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-top"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="918.jpg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="sf90" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-zoom"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="Ferrari SF90 XX.jpeg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="f8" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-bottom"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="f8.jpg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="z06" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-fading"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="CorvetteZ06.jpg"></center>
+			</div>
+	</div>
+	
+	<div class="content" id="c6" style="display: none;">
+            <br>
+            <div class="w3-container w3-card-4 w3-padding w3-animate-zoom"
+				 style="width: 100%; heigth: 10%">
+				<center><img src="c6.jpg"></center>
+			</div>
+	</div>
+
+	<script>
+        function changeContent(content) {
+            const contents = document.getElementsByClassName('content');
+            const navs = document.getElementsByClassName('nav');
+            const sides = document.getElementsByClassName('side');
+            for (let i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+            }
+            for (let i = 0; i < navs.length; i++) {
+                navs[i].classList.remove('w3-blue');
+            }
+            for (let i = 0; i < sides.length; i++) {
+                sides[i].classList.remove('w3-blue');
+            }
+            document.getElementById(content).style.display = 'block';
+            document.getElementById('nav-' + content).classList.add('w3-blue');
+            document.getElementById('side-' + content).classList.add('w3-blue');
+        }
+		
+    </script>
+	
+</html>
